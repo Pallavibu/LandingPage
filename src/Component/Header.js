@@ -6,7 +6,7 @@ import cart from "../Assets/cart.jpg";
 
 const Header = () => {
   return (
-    <div className="w-full h-28">
+    <div className="w-full h-32 m-0">
       <div className="h-12 my-4 mx-14 flex gap-10 ">
         <div>
           <img src={logo} alt="logo" className="w-36" />
@@ -40,7 +40,7 @@ const Header = () => {
         </div>
       </div>
       <div className="flex border border-gray-300">
-        <div className="h-14 py-4 px-6">
+        <div className="h-12 py-4 px-4">
           <p className="text-black font-medium">Mobile & Tablets</p>
         </div>
         <div className="h-12 py-4 px-6">
