@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "./Component/Header";
 
 function App() {
   return (
    <>
-   <h1 className='bg-slate-800'>Pallaviiiiii</h1>
+   
+   <Header/>
    </>
   );
 }
